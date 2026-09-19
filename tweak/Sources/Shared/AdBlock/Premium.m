@@ -105,7 +105,7 @@ static const SGRule rules[] = {
     {"ios-feature-settings", "automix_enabled", SGRuleForce, YES, NULL},
     {"core-playback-setup", "crossfade_enabled", SGRuleForce, YES, NULL},
     {"core-automix", "automix_enabled", SGRuleForce, YES, NULL},
-    {"ios-feature-settings", "use_playback_settings_crossfade", SGRuleForce, NO, NULL},
+    {"ios-feature-settings", "use_playback_settings_crossfade", SGRuleForce, YES, NULL},
     {"ios-feature-settings", "use_playback_settings_gapless", SGRuleForce, NO, NULL},
     {NULL, "enable_common_capping", SGRuleRemove, NO, NULL},
     {NULL, "enable_pns_common_capping", SGRuleRemove, NO, NULL},
